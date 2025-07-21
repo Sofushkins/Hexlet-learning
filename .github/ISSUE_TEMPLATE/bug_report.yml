@@ -9,7 +9,7 @@ body:
     id: summary
     attributes:
       label: Краткое описание
-      placeholder: Например: Кнопка "Сохранить" не работает
+      placeholder: "Например: Кнопка 'Сохранить' не работает"
     validations:
       required: true
 
@@ -19,9 +19,9 @@ body:
       label: Шаги, чтобы воспроизвести ошибку
       description: Напиши пошагово, как воспроизвести баг
       placeholder: |
-        1. Перейти на страницу входа
-        2. Ввести данные
-        3. Нажать "Войти"
+        1. Перейти на страницу входа  
+        2. Ввести данные  
+        3. Нажать "Войти"  
         4. Получить ошибку
     validations:
       required: true
@@ -30,19 +30,19 @@ body:
     id: expected
     attributes:
       label: Что должно было произойти
-      placeholder: Например: Должна была открыться домашняя страница
+      placeholder: "Например: Должна была открыться домашняя страница"
 
   - type: textarea
     id: actual
     attributes:
       label: Что произошло на самом деле
-      placeholder: Например: Появилось сообщение об ошибке "401 Unauthorized"
+      placeholder: "Например: Появилось сообщение об ошибке '401 Unauthorized'"
 
   - type: textarea
     id: environment
     attributes:
       label: Информация о среде
-      placeholder: Например: Chrome 115 / macOS / версия 1.2.3
+      placeholder: "Например: Chrome 115 / macOS / версия 1.2.3"
 
   - type: textarea
     id: screenshots
